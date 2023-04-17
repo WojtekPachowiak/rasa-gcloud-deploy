@@ -16,8 +16,8 @@
    - 'gcr.io/$PROJECT_ID/rasa-wojtek-chatbot-api:$COMMIT_SHA'
    - '--region'
    - 'europe-west1'
-   - '--memory', 
-   - '1Gi', 
+   - '--memory'
+   - '1Gi'
    - '--allow-unauthenticated'
  images:
  - 'gcr.io/$PROJECT_ID/rasa-wojtek-chatbot-api:$COMMIT_SHA'
